@@ -7,4 +7,12 @@ A Kalman filter and Particle Filter implementation for tracking an object in 1) 
 
 
 
-
+## Conclusions
+In this laboratory we have analyzed the role of the parameters for a linear-Gaussian system when
+estimating the state with both a Kalman filter and a particle filter. We discovered that, for a simplistic
+model, such as an object moving in a 2D space, the difference between the Kalman solution (optimal)
+and the particle filter is not that significant.
+For the FitzHugh-Nagumo model, only the particle filter could be implemented. We found out the
+effect that the number of particles have on the error –inversly proportional–, and that the form of
+the observations is critical for the proper functioning of the filter, as with non-linear observations the
+problem could not be solved at all.
