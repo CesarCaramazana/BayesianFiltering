@@ -1,4 +1,4 @@
-# Bayesian Filtering systems: Kalman filter and Particle filter
+# Object tracking with Bayesian Filtering systems: Kalman filter and Particle filter
 
 As part of a course in Statistical Signal Processing.
 
