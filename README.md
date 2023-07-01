@@ -22,6 +22,11 @@ For a non-linear model, only the Particle Filter provides a solution.
 ![traject-fitz](https://github.com/CesarCaramazana/BayesianFiltering/blob/main/Figures/Fitz_trajectory.png)
 
 
+![traject-fitz2d](https://github.com/CesarCaramazana/BayesianFiltering/blob/main/Figures/Fitz_2d.png)
+
+
+![traject-fitz_estimate](https://github.com/CesarCaramazana/BayesianFiltering/blob/main/Figures/Fitz_estimate.png)
+
 ## Conclusions
 In this laboratory we have analyzed the role of the parameters for a linear-Gaussian system when
 estimating the state with both a Kalman filter and a particle filter. We discovered that, for a simplistic
