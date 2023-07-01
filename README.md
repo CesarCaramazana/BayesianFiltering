@@ -5,9 +5,15 @@ As part of a course in Statistical Signal Processing.
 ## Description
 A Kalman filter and Particle Filter implementation for tracking an object in 1) a Gaussian linear model (GaussianModel_ObjectTracking.m) and in the 2) FitzHugh-Nagumo model for the action potential in a cell membrane (ActionPotential_ObjectTracking.m).
 
+![fitz](https://github.com/CesarCaramazana/BayesianFiltering/blob/main/Figures/fitz_model.png)
+
+(Example of the FitzHugh-Nagumo model)
+
+
+
 ### Linear model
 
-For a Gaussian linear model, the Kalman filter provides the optimal solution. 
+For a Gaussian linear model, the Kalman filter provides the optimal solution. Despite the Particle filter not providing the optimal solution, due to its approximations, the solution is still accurate enough to track the object in the plane. There are still some peaks in the error curves and some simulations where the estimate deviates significantly from the real trajectory (due to the stochastic nature of the algorithm).
 
 ![trajectory](https://github.com/CesarCaramazana/BayesianFiltering/blob/main/Figures/Linear_trajectory.png)
 
